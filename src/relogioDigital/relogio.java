@@ -1,5 +1,7 @@
 package relogioDigital;
 
+import java.util.Set;
+
 public class relogio {
     
     //Atributos
@@ -9,27 +11,28 @@ public class relogio {
     
 
     //Métodos
-    void alterarNome(String nome){
-          if(nome=="Nicholas");
-          System.out.println("Bem vindo " + nome);
+    //A estrutura do método ( tipo void + ação + {opcional} parâmetro)
+                void alterarNome(String nome){
+                    if(nome=="Nicholas");
+                        System.out.println("Bem vindo " + nome);
         
-    }
+                }
 
-    void alterarHora(int hora){
-       if(hora<=12){
-        System.out.println("Bom dia ");
+    //Estrutura do método utilizando condicionais
+                void alterarHora(int hora){
+                    if(hora<=12){
+                         System.out.println("Bom dia ");
 
-    }else if(hora>12 && hora<18){
-        System.out.println("Boa tarde ");
+                    }else if(hora>12 && hora<18){
+                        System.out.println("Boa tarde ");
     
-    }else if(hora>=18){
-        System.out.println("Boa noite ");
-    }
+                    }else if(hora>=18){
+                        System.out.println("Boa noite ");
+                    
+                    }
 
-}
     
+                }   
     
-        
-
     
 }

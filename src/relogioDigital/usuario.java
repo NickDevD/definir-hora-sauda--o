@@ -7,9 +7,10 @@ public class usuario {
         relogio relogio1 = new relogio();
 
         
-        relogio1.alterarHora(23);
+        relogio1.alterarHora(12);
 
-        relogio1.alterarNome("Nicholas");
+        relogio1.alterarNome("Carlos");
+        
         
 
 
